@@ -1,0 +1,85 @@
+# =========================
+# Python / Virtual Environments
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment Variables & Secrets
+# =========================
+# NEVER commit your AWS credentials or API keys
+.env
+.env.local
+.env.*
+*.pem
+credentials.json
+client_secret.json
+
+# =========================
+# IDEs and Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =========================
+# Testing, Logging, and Profiling
+# =========================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Data & Jupyter Notebooks (For AI/RAG prep)
+# =========================
+.ipynb_checkpoints
+data/
+*.csv
+*.tsv
+*.sqlite
+*.db
+*.sqlite3
+
+# =========================
+# LangGraph / Streamlit / Framework Specific
+# =========================
+.streamlit/
